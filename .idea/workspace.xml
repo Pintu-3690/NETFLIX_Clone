@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+  </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d27d9a4-a8b6-45b8-b723-79c37618544c" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="40" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Pintu-3690&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Pintu-3690/clone.git&quot;,
+    &quot;accountId&quot;: &quot;6d7faac3-26e3-46bb-aa6e-b7906c0fa939&quot;
+  }
+}</component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="8LkD1KG4" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0981667300656318E-96" />
+      <entry key="MS500" value="6.49327664497993E-20" />
+      <entry key="S2" value="2.18009708864519E-5" />
+      <entry key="S5" value="0.023367945707204255" />
+      <entry key="S10" value="0.26137311793299456" />
+      <entry key="S30" value="1.687634228156565" />
+      <entry key="S60" value="3.5604838087624593" />
+      <entry key="M2" value="6.519689920410413" />
+      <entry key="M5" value="12.899517457850937" />
+      <entry key="M10" value="20.907067950051474" />
+      <entry key="M15" value="28.65271002451557" />
+      <entry key="M30" value="50.57946372969599" />
+      <entry key="H1" value="89.61832096007208" />
+      <entry key="H2" value="151.43616349421492" />
+      <entry key="H4" value="220.6772438031909" />
+      <entry key="D1" value="324.92178924398905" />
+      <entry key="W1" value="349.6323674629163" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000031636030038" />
+      <entry key="S5" value="1.0063106310813277" />
+      <entry key="S10" value="1.079442004911842" />
+      <entry key="S30" value="1.4463442588999784" />
+      <entry key="S60" value="1.829545757583834" />
+      <entry key="M2" value="2.4603193442753257" />
+      <entry key="M5" value="4.019001199992248" />
+      <entry key="M10" value="6.938016158843573" />
+      <entry key="M15" value="9.904026170686585" />
+      <entry key="M30" value="18.387082613394774" />
+      <entry key="H1" value="36.61993751058206" />
+      <entry key="H2" value="68.66405387395382" />
+      <entry key="H4" value="104.95793614577033" />
+      <entry key="D1" value="159.04360380472968" />
+      <entry key="W1" value="171.7568695307462" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="4.964225217597706E-6" />
+      <entry key="MS500" value="0.08693012323187424" />
+      <entry key="S2" value="0.5430102925321939" />
+      <entry key="S5" value="0.8071953190933403" />
+      <entry key="S10" value="1.1819850229878819" />
+      <entry key="S30" value="2.994273964419869" />
+      <entry key="S60" value="5.273949169436993" />
+      <entry key="M2" value="8.887837126429533" />
+      <entry key="M5" value="16.85113008050924" />
+      <entry key="M10" value="27.7897606597158" />
+      <entry key="M15" value="38.506955539181064" />
+      <entry key="M30" value="68.92463225065438" />
+      <entry key="H1" value="126.20048175430938" />
+      <entry key="H2" value="220.06694762256956" />
+      <entry key="H4" value="325.6103949329474" />
+      <entry key="D1" value="483.95922532707493" />
+      <entry key="W1" value="521.3882871962704" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3HHL3JQ7pxxziDvTXl2CtgvGMNs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.netflix.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/~User~/Desktop/web dev/projects/netflix/clone",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.first.attach.projects": "true",
+    "settings.editor.selected.configurable": "ml.llm.LLMThirdPartyAiProvidersConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JavaScript Debug.netflix.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/clone/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="netflix.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/clone/netflix.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.netflix.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d27d9a4-a8b6-45b8-b723-79c37618544c" name="Changes" comment="" />
+      <created>1785519847092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1785519847092</updated>
+      <workItem from="1785519848441" duration="1325000" />
+      <workItem from="1785598446809" duration="3996000" />
+      <workItem from="1785612595938" duration="5967000" />
+      <workItem from="1785620861213" duration="5501000" />
+      <workItem from="1785642871786" duration="12106000" />
+      <workItem from="1785660501513" duration="872000" />
+      <workItem from="1785663910953" duration="1870000" />
+      <workItem from="1785670249367" duration="305000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="f8759d69-f4a3-476e-953a-4471e7644d50" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="f8759d69-f4a3-476e-953a-4471e7644d50">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

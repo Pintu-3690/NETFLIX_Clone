@@ -1,0 +1,519 @@
+:root {
+    --nf-red: #e50914;
+    --nf-red-dark: #b1060f;
+    --nf-black: #000000;
+    --nf-dark: #141414;
+    --nf-gray: #808080;
+    --nf-light-gray: #b3b3b3;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: var(--nf-black);
+    color: #fff;
+}
+
+a { text-decoration: none; color: inherit; }
+button { font-family: inherit; cursor: pointer; border: none; }
+.header{
+    height: 80px;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+.Nlogo{
+    height: 80px;
+    width: 190px;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 25px;
+
+}
+.logo{
+    height: 75px;
+    width: 180px;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+.signin-btn {
+    background-color: #e50914;
+    color: white;
+    height: 35px;
+    width: 100px;
+
+    border: none;
+    border-radius: 4px;
+
+    padding: 8px 18px;
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signin-btn:hover {
+    background-color: #f6121d;
+}
+
+
+.sing{
+    width: 300px;
+    display: flex;
+    padding-top: 15px;
+    gap: 25px;
+}
+.language-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    height: 36px;
+    padding: 0 12px;
+    border: 1px solid #777;
+    border-radius: 4px;
+
+    background: rgba(0,0,0,0.5);
+    color: white;
+
+    cursor: pointer;
+}
+
+.language-box i {
+    font-size: 16px;
+}
+
+.language-box select {
+    background: transparent;
+    color: white;
+
+    border: none;
+    outline: none;
+
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.language-box select option {
+    color: black;
+}
+.heroClass{
+    height: 100vh;
+    width: 100%;
+
+    background:
+            linear-gradient(
+                    to top,
+                    #000 0%,
+                    transparent 50%
+            ),
+            linear-gradient(
+                    to right,
+                    rgba(0,0,0,0.8),
+                    transparent 60%
+            ),
+            linear-gradient(
+                    to bottom,
+                    rgba(0,0,0,0.8),
+                    transparent 30%
+            ),
+            linear-gradient(
+                    to left,
+                    rgba(0,0,0,0.8),
+                    transparent 60%),
+            url("the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-fullview.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-cont{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    height: 400px;
+    z-index: 2;
+    padding-top: 35px;
+
+
+}
+.cont_paragraph{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    font-weight: 600;
+    line-height: 1.5;
+    color: #fff;
+    margin: 10px;
+}
+.cont_headline{
+    font-size: clamp(2rem, 6vw, 3.4rem);
+    font-weight: 900;
+    margin-bottom: 16px;
+    line-height: 1.1;
+    margin-top: 30px;
+}
+.hero-cont .sub{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
+    font-weight: 500;
+    line-height: 1.5;
+    color: #fff;
+    opacity: 0.9;
+    margin-top: 10px;
+}
+
+.email-signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.email-signin input{
+    width: 350px;
+    padding: 16px;
+    font-size: 1rem;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 4px;
+    background: rgba(22,22,22,0.7);
+    color: white;
+    outline: none;
+}
+
+.email-signin input::placeholder{
+    color: #b3b3b3;
+}
+
+.email-signin button{
+    padding: 16px 28px;
+    background: #e50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.email-signin button:hover{
+    background: #c11119;
+}
+.B_sub{
+    text-align: center;
+    margin-top: 15px;
+    color: #b3b3b3;
+}
+.trending{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.trending h2{
+    color: #fff;
+    font-size: 1.8rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.trending-row{
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    scrollbar-width: none;      /* Firefox */
+}
+
+.trending-row::-webkit-scrollbar{
+    display: none;              /* Chrome */
+}
+
+.movie-card{
+    min-width: 200px;
+    height: 300px;
+    background: #333;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.movie-card:hover{
+    transform: scale(1.08);
+}
+.trending{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.trending h2{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.slider-container{
+    position: relative;
+}
+
+.trending-row{
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.trending-row::-webkit-scrollbar{
+    display: none;
+}
+
+.trending-row img{
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: .3s;
+}
+
+.trending-row img:hover{
+    transform: scale(1.08);
+}
+
+/* Arrow Buttons */
+
+.arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 80px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(0,0,0,.6);
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 10;
+    transition: .3s;
+}
+
+.arrow:hover{
+    background: rgba(0,0,0,.9);
+}
+
+.left{
+    left: -25px;
+}
+
+.right{
+    right: -25px;
+}
+.reasons{
+    width: 90%;
+    margin: 70px auto;
+    color: #fff;}
+.reasons-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+}
+.reasons h2{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.reason-card{
+    background: linear-gradient(145deg,#192247,#210e17);
+    padding: 30px;
+    border-radius: 18px;
+    min-height: 260px;
+    transition: .3s;
+}
+
+/* Tablet */
+@media (max-width: 992px){
+    .reasons-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px){
+    .reasons-container{
+        grid-template-columns: 1fr;
+    }
+}
+.reason-card:hover{
+    transform: translateY(-8px);
+}
+.reason-card h3{
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+
+
+.reasons .paragraph{
+    margin-top: 12px;
+    color: #b3b3b3;
+}
+.faq{
+    width: 80%;
+    margin: 60px auto;
+    color: white;
+}
+
+.faq h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.faq-item{
+    margin-bottom: 10px;
+}
+
+.faq-question{
+    width: 100%;
+    background: #2d2d2d;
+    color: white;
+    border: none;
+    padding: 25px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.faq-question:hover{
+    background: #414141;
+}
+
+.faq-answer{
+    display: none;
+    background: #2d2d2d;
+    margin-top: 2px;
+    padding: 25px;
+    line-height: 1.6;
+}
+
+.faq-answer.active{
+    display: block;
+}
+.last{
+    text-align: center;
+    color: #b3b3b3;
+}
+.email-section{
+    width: 90%;
+    margin: 60px auto;
+    text-align: center;
+    color: #fff;
+}
+
+.email-section p{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.email-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.email-form input{
+    width: 400px;
+    max-width: 100%;
+    padding: 16px;
+    font-size: 1rem;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 4px;
+    background: rgba(22,22,22,0.7);
+    color: #fff;
+    outline: none;
+}
+
+.email-form input::placeholder{
+    color: #b3b3b3;
+}
+
+.email-form button{
+    padding: 16px 28px;
+    background: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .3s;
+}
+
+.email-form button:hover{
+    background: #c11119;
+}
+.lastO{
+    text-align : left;
+
+    color: #b3b3b3;
+}
+.footer{
+    width: 90%;
+    margin: 70px auto 30px;
+    color: #b3b3b3;
+    font-family: Arial, sans-serif;
+}
+
+.contact{
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+.contact a{
+    color: #b3b3b3;
+}
+
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.footer-links a{
+    color: #b3b3b3;
+    font-size: .9rem;
+}
+
+.footer-links a:hover{
+    text-decoration: underline;
+}
+
+.country{
+    margin-bottom: 25px;
+    font-size: .9rem;
+    margin-top: 8px;
+}
+
+.captcha{
+    font-size: .8rem;
+    color: #8c8c8c;
+    line-height: 1.5;
+}
+
+.captcha a{
+    color: #448ef4;
+}
