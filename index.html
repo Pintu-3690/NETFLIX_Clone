@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#e50914">
+  <meta name="description" content="Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.">
+  <meta name="keywords" content="Netflix, streaming, watch movies, watch TV shows, Netflix India, top 10 movies">
+  
+  <!-- Open Graph / Facebook / Twitter Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Netflix India – Watch TV Shows Online, Watch Movies Online">
+  <meta property="og:description" content="Unlimited movies, TV shows, and more. Watch anywhere. Cancel anytime.">
+  <meta property="og:image" content="the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-fullview.jpg">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="netflix.png">
+  <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="net_style.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header id="main-header">
+    <div class="header-inner">
+      <a href="#" class="logo-link" aria-label="Netflix Home">
+        <img class="logo-img" src="netflix.png" alt="Netflix Logo">
+      </a>
+      
+      <div class="nav-actions">
+        <!-- Language Selector -->
+        <div class="lang-select-wrapper">
+          <span class="lang-icon" aria-hidden="true">🌐</span>
+          <select id="lang-selector" class="lang-dropdown" aria-label="Select Language">
+            <option value="en" selected>English</option>
+            <option value="hi">हिन्दी</option>
+            <option value="bn">বাংলা</option>
+          </select>
+          <span class="lang-caret" aria-hidden="true">▼</span>
+        </div>
+
+        <!-- Sign In Button -->
+        <button id="open-signin-btn" class="signin-btn" type="button">Sign In</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1 class="hero-headline">Unlimited movies, TV shows and more</h1>
+      <p class="hero-subhead">Starts at ₹149. Cancel anytime.</p>
+      <p class="hero-prompt">Ready to watch? Enter your email to create or restart your membership.</p>
+
+      <!-- Email Signup Form -->
+      <form class="email-signup-form" id="hero-email-form" novalidate>
+        <div class="floating-input-group">
+          <input type="email" id="hero-email-input" placeholder=" " required autocomplete="email">
+          <label for="hero-email-input">Email address</label>
+          <span class="form-error-msg" id="hero-email-error">Please enter a valid email address.</span>
+        </div>
+        <button type="submit" class="btn-get-started">
+          <span>Get Started</span>
+          <span class="arrow-icon" aria-hidden="true">&#10095;</span>
+        </button>
+      </form>
+
+      <p class="hero-disclaimer">New members only. Terms and conditions apply.</p>
+    </div>
+
+    <!-- Glowing Red Curve Separator -->
+    <div class="hero-curve-divider" aria-hidden="true"></div>
+  </section>
+
+  <!-- Main Content Areas -->
+  <main>
+    <!-- Trending Now Section -->
+    <section class="section-container" id="trending-section">
+      <div class="section-header">
+        <h2 class="section-title">Trending Now</h2>
+        
+        <!-- Filter Tabs -->
+        <div class="filter-tabs" role="tablist">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="movies">Movies</button>
+          <button class="filter-btn" data-filter="series">TV Shows</button>
+        </div>
+      </div>
+
+      <!-- Carousel Slider -->
+      <div class="slider-outer">
+        <button class="slider-arrow left" id="slide-left" aria-label="Scroll left">&#10094;</button>
+
+        <div class="trending-slider" id="trending-slider">
+          <!-- Card 1 -->
+          <div class="movie-card" data-category="series" data-title="Mirzapur" data-rating="98% Match" data-year="2024" data-age="U/A 18+" data-duration="3 Seasons" data-desc="A shocking incident at a wedding procession ignites a series of events entangling two families in the lawless city of Mirzapur." data-img="mirzapur.jpeg" data-tags="Gritty, Crime, Thriller, Action">
+            <div class="card-poster-wrap">
+              <span class="card-badge">Top 10</span>
+              <img src="mirzapur.jpeg" alt="Mirzapur poster" loading="lazy">
+            </div>
+            <div class="rank-number">1</div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="movie-card" data-category="movies" data-title="Extraction II" data-rating="96% Match" data-year="2023" data-age="A 18+" data-duration="2h 3m" data-desc="Back from the brink of death, highly skilled commando Tyler Rake takes on another dangerous mission to save an imprisoned family." data-img="e.jpeg" data-tags="Action, Explosive, Mercenary, Suspense">
+            <div class="card-poster-wrap">
+              <span class="card-badge">Recently Added</span>
+              <img src="e.jpeg" alt="Extraction poster" loading="lazy">
+            </div>
+            <div class="rank-number">2</div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="movie-card" data-category="series" data-title="Stranger Things" data-rating="99% Match" data-year="2024" data-age="16+" data-duration="4 Seasons" data-desc="When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl." data-img="9.jpeg" data-tags="Sci-Fi, Nostalgic, Horror, Mystery">
+            <div class="card-poster-wrap">
+              <span class="card-badge">Top 10</span>
+              <img src="9.jpeg" alt="Stranger Things poster" loading="lazy">
+            </div>
+            <div class="rank-number">3</div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="movie-card" data-category="movies" data-title="Money Heist: Berlin" data-rating="95% Match" data-year="2024" data-age="16+" data-duration="1 Season" data-desc="During his golden age, Berlin and a masterful gang gather in Paris for one of his greatest robberies ever: 44 million euros in jewels." data-img="2.jpg" data-tags="Heist, Suspenseful, European, Drama">
+            <div class="card-poster-wrap">
+              <span class="card-badge">Trending</span>
+              <img src="2.jpg" alt="Berlin poster" loading="lazy">
+            </div>
+            <div class="rank-number">4</div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="movie-card" data-category="series" data-title="Sacred Games" data-rating="94% Match" data-year="2023" data-age="18+" data-duration="2 Seasons" data-desc="A link in their pasts leads an honest cop to a fugitive gang boss, whose cryptic warning spurs the officer on a quest to save Mumbai from cataclysm." data-img="3.jpeg" data-tags="Dark, Underworld, Thriller, Mind-Bending">
+            <div class="card-poster-wrap">
+              <span class="card-badge">Top 10</span>
+              <img src="3.jpeg" alt="Sacred Games poster" loading="lazy">
+            </div>
+            <div class="rank-number">5</div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="movie-card" data-category="movies" data-title="Animal" data-rating="92% Match" data-year="2023" data-age="18+" data-duration="3h 21m" data-desc="The hardened son of a powerful industrialist returns home after years abroad and vows to exact ruthless revenge against those threatening his father." data-img="5.jpeg" data-tags="Violent, Emotional, Revenge, Blockbuster">
+            <div class="card-poster-wrap">
+              <span class="card-badge">Popular</span>
+              <img src="5.jpeg" alt="Animal poster" loading="lazy">
+            </div>
+            <div class="rank-number">6</div>
+          </div>
+
+          <!-- Card 7 -->
+          <div class="movie-card" data-category="series" data-title="Squid Game" data-rating="97% Match" data-year="2024" data-age="18+" data-duration="2 Seasons" data-desc="Hundreds of cash-strapped players accept a strange invitation to compete in children's games with deadly stakes for a 45.6 billion won prize." data-img="8.jpeg" data-tags="Suspenseful, Dystopian, High-Stakes, Drama">
+            <div class="card-poster-wrap">
+              <span class="card-badge">New Season</span>
+              <img src="8.jpeg" alt="Squid Game poster" loading="lazy">
+            </div>
+            <div class="rank-number">7</div>
+          </div>
+
+          <!-- Card 8 -->
+          <div class="movie-card" data-category="movies" data-title="Leo" data-rating="91% Match" data-year="2023" data-age="16+" data-duration="2h 44m" data-desc="A mild-mannered cafe owner in Kashmir turns local hero through an act of violence, triggering dangerous consequences with a drug cartel." data-img="4.jpeg" data-tags="Action Packed, Fast-Paced, South Indian Cinema">
+            <div class="card-poster-wrap">
+              <span class="card-badge">Superhit</span>
+              <img src="4.jpeg" alt="Leo poster" loading="lazy">
+            </div>
+            <div class="rank-number">8</div>
+          </div>
+        </div>
+
+        <button class="slider-arrow right" id="slide-right" aria-label="Scroll right">&#10095;</button>
+      </div>
+    </section>
+
+    <!-- More Reasons to Join Section -->
+    <section class="section-container">
+      <h2 class="section-title">More Reasons to Join</h2>
+      
+      <div class="reasons-grid">
+        <!-- Reason 1 -->
+        <div class="reason-card">
+          <div>
+            <h3>Enjoy on your TV</h3>
+            <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+          </div>
+          <div class="reason-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect>
+              <polyline points="17 2 12 7 7 2"></polyline>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Reason 2 -->
+        <div class="reason-card">
+          <div>
+            <h3>Download shows to watch offline</h3>
+            <p>Save your favourites easily and always have something to watch, even on the go without internet.</p>
+          </div>
+          <div class="reason-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Reason 3 -->
+        <div class="reason-card">
+          <div>
+            <h3>Watch everywhere</h3>
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV with zero ads.</p>
+          </div>
+          <div class="reason-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+              <rect x="9" y="9" width="6" height="6"></rect>
+              <line x1="9" y1="1" x2="9" y2="4"></line>
+              <line x1="15" y1="1" x2="15" y2="4"></line>
+              <line x1="9" y1="20" x2="9" y2="23"></line>
+              <line x1="15" y1="20" x2="15" y2="23"></line>
+              <line x1="20" y1="9" x2="23" y2="9"></line>
+              <line x1="20" y1="14" x2="23" y2="14"></line>
+              <line x1="1" y1="9" x2="4" y2="9"></line>
+              <line x1="1" y1="14" x2="4" y2="14"></line>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Reason 4 -->
+        <div class="reason-card">
+          <div>
+            <h3>Create profiles for kids</h3>
+            <p>Send children on adventures with their favourite characters in a space made just for them — free with membership.</p>
+          </div>
+          <div class="reason-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+              <line x1="9" y1="9" x2="9.01" y2="9"></line>
+              <line x1="15" y1="9" x2="15.01" y2="9"></line>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion Section -->
+    <section class="section-container">
+      <div class="faq-container">
+        <h2 class="section-title" style="text-align: center; margin-bottom: 24px;">Frequently Asked Questions</h2>
+        
+        <div class="faq-list">
+          <!-- Question 1 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>What is Netflix?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more on thousands of internet-connected devices.</p>
+              <p>You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!</p>
+            </div>
+          </div>
+
+          <!-- Question 2 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>How much does Netflix cost?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.</p>
+            </div>
+          </div>
+
+          <!-- Question 3 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Where can I watch?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.</p>
+              <p>You can also download your favourite shows with the iOS or Android app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+            </div>
+          </div>
+
+          <!-- Question 4 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>How do I cancel?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+            </div>
+          </div>
+
+          <!-- Question 5 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>What can I watch on Netflix?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+            </div>
+          </div>
+
+          <!-- Question 6 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Is Netflix good for kids?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.</p>
+              <p>Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom Email Signup CTA -->
+    <section class="bottom-cta-section">
+      <p class="cta-text">Ready to watch? Enter your email to create or restart your membership.</p>
+      
+      <form class="email-signup-form" id="bottom-email-form" novalidate>
+        <div class="floating-input-group">
+          <input type="email" id="bottom-email-input" placeholder=" " required autocomplete="email">
+          <label for="bottom-email-input">Email address</label>
+          <span class="form-error-msg" id="bottom-email-error">Please enter a valid email address.</span>
+        </div>
+        <button type="submit" class="btn-get-started">
+          <span>Get Started</span>
+          <span class="arrow-icon" aria-hidden="true">&#10095;</span>
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-contact">Questions? Call <a href="tel:0008009191743">000-800-919-1743</a></p>
+      
+      <div class="footer-grid">
+        <a href="#faq">FAQ</a>
+        <a href="#help">Help Centre</a>
+        <a href="#account">Account</a>
+        <a href="#media">Media Centre</a>
+        <a href="#investor">Investor Relations</a>
+        <a href="#jobs">Jobs</a>
+        <a href="#ways">Ways to Watch</a>
+        <a href="#terms">Terms of Use</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#cookies">Cookie Preferences</a>
+        <a href="#corporate">Corporate Information</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#speed">Speed Test</a>
+        <a href="#legal">Legal Notices</a>
+        <a href="#only">Only on Netflix</a>
+      </div>
+
+      <!-- Footer Language -->
+      <div class="lang-select-wrapper footer-lang">
+        <span class="lang-icon" aria-hidden="true">🌐</span>
+        <select class="lang-dropdown footer-lang-dropdown" aria-label="Select Footer Language">
+          <option value="en" selected>English</option>
+          <option value="hi">हिन्दी</option>
+          <option value="bn">বাংলা</option>
+        </select>
+        <span class="lang-caret" aria-hidden="true">▼</span>
+      </div>
+
+      <p class="footer-country">Netflix India</p>
+
+      <p class="footer-captcha">
+        This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Modal 1: Interactive Movie Details & Trailer Preview -->
+  <div class="modal-overlay" id="movie-preview-modal" aria-hidden="true">
+    <div class="preview-modal" role="dialog" aria-modal="true">
+      <button class="modal-close-btn" id="close-preview-btn" aria-label="Close modal">&times;</button>
+      
+      <div class="modal-hero" id="modal-hero-bg">
+        <div class="modal-hero-actions">
+          <button class="btn-play-trailer" id="btn-modal-play">
+            <span>▶</span> Play Trailer
+          </button>
+          <button class="btn-circle-action" id="btn-modal-add" title="Add to My List">+</button>
+          <button class="btn-circle-action" id="btn-modal-like" title="I like this">👍</button>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-meta-row">
+          <span class="match-score" id="modal-match">98% Match</span>
+          <span id="modal-year">2024</span>
+          <span class="age-badge" id="modal-age">U/A 16+</span>
+          <span id="modal-duration">3 Seasons</span>
+          <span class="quality-badge">HD</span>
+          <span class="quality-badge">4K ULTRA HD</span>
+          <span class="quality-badge">5.1 AUDIO</span>
+        </div>
+
+        <h2 class="modal-title" id="modal-title">Title</h2>
+        <p class="modal-desc" id="modal-desc">Description of the movie or show.</p>
+        
+        <div class="modal-tags" id="modal-tags">
+          <!-- Dynamically populated tags -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Interactive Netflix Sign In Modal -->
+  <div class="modal-overlay" id="signin-modal" aria-hidden="true">
+    <div class="signin-modal-card" role="dialog" aria-modal="true">
+      <button class="modal-close-btn" id="close-signin-modal" aria-label="Close sign in dialog">&times;</button>
+      
+      <h2>Sign In</h2>
+      <form class="auth-form" id="signin-form" novalidate>
+        <div class="auth-input-group">
+          <input type="text" id="auth-email" placeholder=" " required autocomplete="username">
+          <label for="auth-email">Email or phone number</label>
+        </div>
+
+        <div class="auth-input-group">
+          <input type="password" id="auth-password" placeholder=" " required autocomplete="current-password">
+          <label for="auth-password">Password</label>
+        </div>
+
+        <button type="submit" class="btn-auth-submit">Sign In</button>
+
+        <div class="auth-extra">
+          <label class="remember-me">
+            <input type="checkbox" checked>
+            <span>Remember me</span>
+          </label>
+          <a href="#">Need help?</a>
+        </div>
+
+        <div class="auth-switch">
+          <p>New to Netflix? <a href="#" id="auth-signup-link">Sign up now</a>.</p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <!-- JavaScript -->
+  <script src="nscript.js"></script>
+</body>
+</html>

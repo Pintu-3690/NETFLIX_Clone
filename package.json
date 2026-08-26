@@ -1,0 +1,22 @@
+{
+  "name": "netflix-clone",
+  "version": "1.0.0",
+  "description": "A high-performance, responsive, professional Netflix landing page and streaming UI clone.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "netflix",
+    "netflix-clone",
+    "frontend",
+    "html5",
+    "css3",
+    "javascript",
+    "responsive-design",
+    "vercel"
+  ],
+  "author": "Netflix Clone",
+  "license": "MIT"
+}
